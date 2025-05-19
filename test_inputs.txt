@@ -1,0 +1,7 @@
+Contact us at support@example.com or call (123) 456-7890.
+Alternate number: 123-456-7890 or 123.456.7890
+Visit our site: https://www.example.com or https://sub.example.org/page
+Your card 1234-5678-9012-3456 or 1234 5678 9012 3456 is invalid.
+Meeting time: 2:30 PM or 14:30
+Emails: firstname.lastname@company.co.uk
+
