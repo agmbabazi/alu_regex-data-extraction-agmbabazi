@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
 import re  
-# The built-in regular expression library
 
-# Define a function to extract different types of data from text
+# Define a function to extract different types of data
 def extract_data(text):
-    # Dictionary of regex patterns with clear labels
+    # Dictionary of regex patterns
     patterns = {
         "Emails": r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b',
         "URLs": r'https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+',
@@ -32,7 +31,7 @@ if __name__ == "__main__":
     # Call the extract_data function
     extracted_info = extract_data(text)
 
-    # Print the results clearly
+    # Print the results
     for label, data in extracted_info.items():
         print(f"\n{label} Found:")
         for item in data:
