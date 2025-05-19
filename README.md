@@ -1,4 +1,4 @@
-# ALU RegexData Extraction Project
+# ALU Regex Data Extraction Project
 
 This is a Python project to extract useful information from large blocks of text using **Regular Expressions (Regex)**. 
 
